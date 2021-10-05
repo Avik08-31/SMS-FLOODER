@@ -1,15 +1,13 @@
 #!/bin/bash
 
 #------------------------------------------------------#
-#                  SMS FLOODER 1.0 !                   #
-#                  Coded by AVIK 08                    #
+#                   XLR8 BOMBER 3.0 !                  #
+#               Coded by Anubhav Kashyap               #
 #~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
-#      Github     :   github.com/Avi08                 #
-#                █▀▀█ █▀▀█ █▀▄▀█ █▀▀▄                  #
-#                █▀▀▄ █░░█ █░▀░█ █▀▀▄                  #
-#                █▄▄█ ▀▀▀▀ ▀   ▀ ▀▀▀                   #
-#~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
-#                Dont try to Steal it                  #
+#      Github     :   github.com/anubhavanonymous      #
+#     Instagram  :  instagram.com/anubhavanonymous     #
+#------------------------------------------------------#
+#               Dont try to Steal it Bitch             #
 #------------------------------------------------------#
 
 # Colors FG
@@ -48,19 +46,19 @@ echo "          $WHITE╭╯╭╮╰┫╰━╯┃┃┃╰┫╰━╯┃ ┃
 echo "          $WHITE╰━╯╰━┻━━━┻╯╰━┻━━━╯ ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
 echo ""
 sleep 1
-echo "                                    $WHITE Author:$RED AVI K"
+echo "                                    $WHITE Author:$RED Anubhav Kashyap"
 echo ""
 
 }
 
 #    Check Internet
-wget -q --spider https://github.com/Avik08-31
+wget -q --spider https://github.com/anubhavanonymous
 
 if [ $? -eq 0 ]; then
     just
 else
     clear
-    echo -e "\e[1;34m "
+    echo -e "\e[1;34m‎‎‏‏ ‎"
     banner
     sleep 1
     echo ""
@@ -124,8 +122,8 @@ echo -e "      \e[92m[\e[93m~\e[92m]\e[36m Updating Now...\e[93m"
 sleep 2
 echo ""
 cd ..
-rm -rf SMS_BOMBER
-git clone https://github.com/Avik08-31/SMS-FLOODER > /dev/null 2>&1
+rm -rf XLR8_BOMBER
+git clone https://github.com/anubhavanonymous/XLR8_BOMBER > /dev/null 2>&1
 cd XLR8_BOMBER
 chmod +x xlr8.sh
 clear
@@ -180,7 +178,7 @@ echo -e '''
          \e[1;91m║\e[1;97m██████\e[1;91m║\e[1;97m█████████\e[1;91m║
 ''' | pv -qL 300
 sleep 1.2
-echo -e "                                  This is\e[1;0m AVIK " | pv -qL 150
+echo -e "                                  This is\e[1;0m 𝗔𝗻𝘂𝗯𝗵𝗮𝘃 𝗞𝗮𝘀𝗵𝘆𝗮𝗽" | pv -qL 150
 echo "                                    aka anubhavanonymous !" | pv -qL 150
 echo ""
 echo -e "     $GREEN  Ethical Hacker$WHITE |$GREEN CyberSec Enthusiast$WHITE |$GREEN Programmer" | pv -qL 10
@@ -396,4 +394,4 @@ fi
 
 
 }
-menu
+menux
