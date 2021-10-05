@@ -64,7 +64,7 @@ git clone https://github.com/Avik080/SMS-FLOODER
 
 ###### Run the script
 
->> bash xlr8.sh
+>> bash SMS FLOODER
 
 ## Version
 * 1.0
