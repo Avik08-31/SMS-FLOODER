@@ -50,13 +50,17 @@ apt update -y && apt upgrade -y
 ##### Clone the repository
 
 
-git clone https://github.com/anubhavanonymous/XLR8_BOMBER
+git clone https://github.com/Avik080/SMS-FLOODER
 
 
     
 ###### Go to the Xlr8 directory
 
->> cd XLR8_BOMBER
+>> cd SMS-FLOODER
+
+###### Give permission
+
+>> chmod +x SMS FLOODER
 
 ###### Run the script
 
