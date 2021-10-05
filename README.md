@@ -75,10 +75,8 @@ git clone https://github.com/anubhavanonymous/XLR8_BOMBER
 
 ## Licence
 
- * Apache 2.0 © Avik08
-
-## Screenshots (Termux)
-
+* Apache 2.0 © Avik08
+# :) 
 
 
 
