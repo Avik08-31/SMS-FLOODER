@@ -60,11 +60,11 @@ git clone https://github.com/Avik080/SMS-FLOODER
 
 ###### Give permission
 
->> chmod +x SMS FLOODER
+>> chmod +x SMSFLOOD
 
 ###### Run the script
 
->> bash SMS FLOODER
+>> ./SMSFLOOD.sh
 
 ## Version
 * 1.0
