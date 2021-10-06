@@ -342,9 +342,9 @@ else
 echo ""
 printf "   \e[92m[\e[91m~\e[92m] \e[0m\e[44mError 404 ! $CYAN(╥﹏╥)\e[0m\n"
 echo ""
-echo -e "   \e[92m[\e[91m~\e[92m]\e[93m This feature doesn't works sometimes !!\e[93m"
+echo -e "   \e[92m[\e[91m~\e[92m]\e[93m This feature doesn't works !!\e[93m"
 echo ""
-echo -e "   \e[92m[\e[91m~\e[92m]\e[93m Remember you can only send one msg per day !\e[93m"
+echo -e "   \e[92m[\e[91m~\e[92m]\e[93m Remember you can only send two msg per day !\e[93m"
 echo ""
 exit
 fi
@@ -357,7 +357,7 @@ clear
 banner
 sleep 1
 DATE=$(date)
-echo "$WHITE✯ Started on $RED$DATE"
+echo "$WHITE✯ Started on $GREEN$DATE"
 echo "$WHITE------------------------------"
 printf "\e[1;33m⚡ This tool is only for Educational Purposes !!\e[0m\n"
 echo "------------------------------"
@@ -369,7 +369,7 @@ printf "\e[1;92m[\e[0m 3\e[1;92m ]\e[0m>>>\e[1;33m UPDATE \e[0m\n"
 printf "\e[1;92m[\e[0m 4\e[1;92m ]\e[0m>>>\e[1;33m ABOUT \e[0m\n"
 printf "\e[1;92m[\e[0m 5\e[1;92m ]\e[0m>>>\e[1;33m QUIT \e[0m\n"
 echo ""
-printf "\e[1;31m Select Option !! \e[0m−−⋙ ⋙ ⋙ "
+printf "\e[1;31m Select Option !! \e[0m−−>>-->>-->> "
 read options
 if [ "$options" -eq "0" ];then
         bombrecord
