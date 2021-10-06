@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #------------------------------------------------------#
-#                   XLR8 BOMBER 3.0 !                  #
-#               Coded by Anubhav Kashyap               #
+#                    SMS BOMBER 1.0 !                  #
+#                  Coded by AVIK08-31                  #
 #~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
-#      Github     :   github.com/anubhavanonymous      #
-#     Instagram  :  instagram.com/anubhavanonymous     #
+#      Github     :   github.com/Avik08-31             #
+#         Instagram  :  instagram.com                  #
 #------------------------------------------------------#
 #               Dont try to Steal it Bitch             #
 #------------------------------------------------------#
@@ -38,15 +38,15 @@ echo ""
 banner() {
 
 echo -e ""
-echo "          $WHITE╭━╮╭━┳╮╱╱╭━━━┳━━━╮ ╭━━╮╭━━━┳━╮╭━┳━━╮╭━━━┳━━━╮"
+echo "          $GREEN╭━╮╭━┳╮╱╱╭━━━┳━━━╮ ╭━━╮╭━━━┳━╮╭━┳━━╮╭━━━┳━━━╮"
 echo "          $RED╰╮╰╯╭┫┃╱╱┃╭━╮┃╭━╮┃ ┃╭╮┃┃╭━╮┃┃╰╯┃┃╭╮┃┃╭━╮┃╭━╮┃"
-echo "          $WHITE╱╰╮╭╯┃┃╱╱┃╰━╯┃╰━╯┃ ┃╰╯╰┫┃╱┃┃╭╮╭╮┃╰╯╰╋╯╭╯┃╰━╯┃"
+echo "          $GREEN╱╰╮╭╯┃┃╱╱┃╰━╯┃╰━╯┃ ┃╰╯╰┫┃╱┃┃╭╮╭╮┃╰╯╰╋╯╭╯┃╰━╯┃"
 echo "          $RED╱╭╯╰╮┃┃╱╭┫╭╮╭┫╭━╮┃ ┃╭━╮┃┃╱┃┃┃┃┃┃┃╭━╮┣╮╰╮┃╭╮╭╯"
-echo "          $WHITE╭╯╭╮╰ ┃╰━╯┃╰━╯┃┃┃┃┃┃╰━╯┃╰━╯┃┃┃╰╮"
-echo "          $WHITE╰━╯╰━┻━━━┻╯╰━┻━━━╯ ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
+echo "          $RED╭╯╭╮╰ ┃╰━╯┃╰━╯┃┃┃┃┃┃╰━╯┃╰━╯┃┃┃╰╮"
+echo "          $GREEN╰━╯╰━┻━━━┻╯╰━┻━━━╯ ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
 echo ""
 sleep 1
-echo "                                    $WHITE Author:$RED AVI K "
+echo "                                    $WHITE Author:$GREEN AVIK "
 echo ""
 
 }
@@ -142,11 +142,11 @@ bash xlr8.sh
 bombrecord() {
 clear
 echo "$RED         ╭━━╮╭━━━┳━╮╭━┳━━╮╭━━━┳━━━╮"
-echo "$WHITE       ┃╭╮┃┃╭━╮┃┃╰╯┃┃╭╮┃┃╭━╮┃╭━╮┃"
+echo "$RED         ┃╭╮┃┃╭━╮┃┃╰╯┃┃╭╮┃┃╭━╮┃╭━╮┃"
 echo "$GREEN       ┃╰╯╰┫┃╱┃┃╭╮╭╮┃╰╯╰╋╯╭╯┃╰━╯┃"
-echo "$WHITE       ┃╭━╮┃┃╱┃┃┃┃┃┃┃╭━╮┣╮╰╮┃╭╮╭╯"
+echo "$GREEN       ┃╭━╮┃┃╱┃┃┃┃┃┃┃╭━╮┣╮╰╮┃╭╮╭╯"
 echo "$RED         ┃╰━╯┃╰━╯┃┃┃┃┃┃╰━╯┃╰━╯┃┃┃╰╮"
-echo "$GREEN       ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
+echo "$RED         ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
 echo -e "     \e[92m[\e[36m~\e[92m]\e[93m This is a record of numbers which had been bombed !\e[93m" | pv -qL 30
 echo " $GREEN"
 cat .bombrecord.txt
@@ -178,18 +178,18 @@ echo -e '''
          \e[1;91m║\e[1;97m██████\e[1;91m║\e[1;97m█████████\e[1;91m║
 ''' | pv -qL 300
 sleep 1.2
-echo -e "                                  This is\e[1;0m 𝗔𝗻𝘂𝗯𝗵𝗮𝘃 𝗞𝗮𝘀𝗵𝘆𝗮𝗽" | pv -qL 150
-echo "                                    aka anubhavanonymous !" | pv -qL 150
+echo -e "                                  This is\e[1;0m  AVIK !  " | pv -qL 150
+echo "                                    AVI anubhavanonymous !" | pv -qL 150
 echo ""
-echo -e "     $GREEN  Ethical Hacker$WHITE |$GREEN CyberSec Enthusiast$WHITE |$GREEN Programmer" | pv -qL 10
+echo -e "     $RED  Ethical Hacker$WHITE |$GREEN CyberSec Enthusiast$WHITE |$GREEN Programmer" | pv -qL 10
 echo ""
-printf "\e[0m\e[92m                 Group Admin at$WHITE DeepWeb Shadows\e[0m\n" | pv -qL 12
+printf "\e[0m\e[92m                 Group Admin at$RED DeepWeb Shadows\e[0m\n" | pv -qL 12
 echo ""
 echo "       $MAGENTA          My social handles are below !!" | pv -qL 10
 echo ""
-printf "\e[0m\e[92m          Github \e[0m\e[91m     :    \e[0m\e[96mgithub.com/anubhavanonymous\e[0m\n" | pv -qL 50
+printf "\e[0m\e[92m          Github \e[0m\e[91m     :    \e[0m\e[96mgithub.com/Avik08-31\e[0m\n" | pv -qL 50
 echo ""
-printf "\e[0m\e[92m         Instagram \e[0m\e[91m   :   \e[0m\e[96minstagram.com/anubhavanonymous\e[0m\n" | pv -qL 50
+printf "\e[0m\e[92m         Instagram \e[0m\e[91m   :   \e[0m\e[96minstagram.com/--------\e[0m\n" | pv -qL 50
 echo ""
 echo -e "\e[1;91m                        Happy Hacking :)" | pv -qL 10
 sleep 7
@@ -204,7 +204,7 @@ menu() {
 bombsrvr=$(shuf -n 1 -e https://xlr71.herokuapp.com/bomb https://xlr72.herokuapp.com/bomb https://xlr73.herokuapp.com/bomb https://xlr74.herokuapp.com/bomb https://xlr75.herokuapp.com/bomb https://xlr76.herokuapp.com/bomb)
 clear
 echo ""
-echo "          $WHITE█▀▄▀█ ▄▀█ █▀ █▀   █▄▄ █▀█ █▀▄▀█ █▄▄ █ █▄░█ █▀▀"
+echo "          $GREEN█▀▄▀█ ▄▀█ █▀ █▀   █▄▄ █▀█ █▀▄▀█ █▄▄ █ █▄░█ █▀▀"
 echo "          $RED█░▀░█ █▀█ ▄█ ▄█   █▄█ █▄█ █░▀░█ █▄█ █ █░▀█ █▄█"
 echo ""
 echo ""
@@ -271,7 +271,7 @@ printf "  $WHITE                      ▂▄▅███\e[1;31mXLR8\e[1;0m█�
 printf "  $RED                    I███████████████████]\n"
 printf "  $WHITE                      ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤...\n"
 echo ""
-printf "             ~~~\e[1;92m Attack Started On +91$targett \e[0m~~~"
+printf "             ~~~\e[1;92m Attack Started On Target +91$targett \e[0m~~~"
 sleep 1
 echo ""
 echo ""
@@ -360,10 +360,9 @@ sleep 1
 printf "\e[1;92m[\e[0m 1\e[1;92m ]\e[0m>>>\e[1;33m MASS BOMBING \e[0m\n"
 printf "\e[1;92m[\e[0m 2\e[1;92m ]\e[0m>>>\e[1;33m ANONYMOUS MSG \e[0m\n"
 printf "\e[1;92m[\e[0m 3\e[1;92m ]\e[0m>>>\e[1;33m UPDATE \e[0m\n"
-printf "\e[1;92m[\e[0m 4\e[1;92m ]\e[0m>>>\e[1;33m ABOUT \e[0m\n"
 printf "\e[1;92m[\e[0m 5\e[1;92m ]\e[0m>>>\e[1;33m QUIT \e[0m\n"
 echo ""
-printf "\e[1;31m Select Option !! \e[0m−−⋙⋙⋙ "
+printf "\e[1;31m Select Option !! \e[0m−−⋙ ⋙ ⋙ "
 read options
 if [ "$options" -eq "0" ];then
         bombrecord
@@ -376,9 +375,6 @@ if [ "$options" -eq "2" ];then
 fi
 if [ "$options" -eq "3" ];then
         updatee
-fi
-if [ "$options" -eq "4" ];then
-        about
 fi
 if [ "$options" -eq "007" ];then
         eexec
