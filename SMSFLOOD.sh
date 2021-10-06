@@ -29,9 +29,16 @@ clear
 echo ""
 echo ""
 printf  "                      \e[1;33m{ P L E S E  W A I T  C_O_N_N_E_C_T_I_N_G }"
+echo""
+echo""
 echo ""
-echo "                                           $BLUE C--H--E--C--K--I--N--G"
-echo "                                            $GREEN S---E---R---V---E---R"
+echo "                                    $BLUE C--H--E--C--K--I--N--G"
+echo""
+echo"                                     /////////////////////////////"
+echo"                                     /////////////////////////////"
+echo"                                     /////////////////////////////"
+echo""
+echo "                                    $GREEN S---E---R---V---E---R"
 }
 
 
@@ -46,7 +53,7 @@ echo "          $RED╭╯╭╮╰ ┃╰━╯┃╰━╯┃┃┃┃┃┃�
 echo "          $GREEN╰━╯╰━┻━━━┻╯╰━┻━━━╯ ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
 echo ""
 sleep 1
-echo "                                    $WHITE Author:$GREEN AVIK "
+echo "                                    $CYAN Author:$GREEN AVIK "
 echo ""
 
 }
@@ -225,7 +232,7 @@ echo ""
 printf "                         \e[0m\e[41mxx ERROR....! xx\e[0m\n"
 echo ""
 echo ""
-printf "   \e[1;92m[\e[91m~\e[92m]\e[93m Bomb Limit Exceeded\e[1;91m ( ͡❛ ︹ ͡❛)\e[93m\n"
+printf "   \e[1;92m[\e[91m~\e[92m]\e[93m Bomb Limit Exceeded\e[1;91m $GREEN( ͡❛ ︹ ͡❛)\e[93m\n"
 echo ""
 echo -e "   \e[92m[\e[91m~\e[92m]\e[93m You can only bomb a number 6 times a day !!\e[93m"
 echo ""
@@ -334,7 +341,7 @@ echo ""
 exit
 else
 echo ""
-printf "   \e[92m[\e[91m~\e[92m] \e[0m\e[44mError 404 ! $RED(╥﹏╥)\e[0m\n"
+printf "   \e[92m[\e[91m~\e[92m] \e[0m\e[44mError 404 ! $CYAN(╥﹏╥)\e[0m\n"
 echo ""
 echo -e "   \e[92m[\e[91m~\e[92m]\e[93m This feature doesn't works sometimes !!\e[93m"
 echo ""
