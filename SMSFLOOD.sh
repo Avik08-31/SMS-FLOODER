@@ -79,7 +79,7 @@ fi
 
 rm .server.txt > /dev/null 2>&1
 wget -L  https://github.com/Avik08-31/serversmsflooder/main/.server.txt > /dev/null 2>&1
-serverup="On"
+serverup=""
 server=$(cat .server.txt | grep On)
 if [[ $server = $serverup ]]
 then
