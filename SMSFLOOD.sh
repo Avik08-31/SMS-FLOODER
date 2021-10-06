@@ -383,7 +383,7 @@ fi
 if [ "$options" -eq "3" ];then
         updatee       
 fi 
-fi[ "$options" -eq "4" ];then
+if[ "$options" -eq "4" ];then
         about 
 fi
 if [ "$options" -eq "007" ];then
