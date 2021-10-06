@@ -28,17 +28,17 @@ just() {
 clear
 echo ""
 echo ""
-printf  "                      \e[1;33m{ P L E S E  W A I T  C_O_N_N_E_C_T_I_N_G }"
+printf  "             \e[1;33m{ $GREEN P L E S E  W A I T  C_O_N_N_E_C_T_I_N_G }"
 echo""
 echo""
 echo ""
-echo "                                    $BLUE C--H--E--C--K--I--N--G"
+print   "                     \e[1;33m    $BLUE C--H--E--C--K--I--N--G"
 echo""
-echo"                                     /////////////////////////////"
-echo"                                     /////////////////////////////"
-echo"                                     /////////////////////////////"
+echo"  \e[1;33m                          /////////////////////////////"
+echo"  \e[1;33m                          /////////////////////////////"
+echo"  \e[1;33m                          /////////////////////////////"
 echo""
-echo "                                    $GREEN S---E---R---V---E---R"
+echo "                         \e[1;33m    $GREEN S---E---R---V---E---R"
 }
 
 
