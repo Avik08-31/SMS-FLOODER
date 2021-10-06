@@ -270,10 +270,10 @@ printf "\n"
 echo ""
 Date=$(date)
 echo -e "      $targett was bombed on $Date"  >> .bombrecord.txt
-printf "  $RED                     ░░░░░░███████ ]▄▄▄▄▄▄▄▄▃\n"
+printf "  $GREEN                    ░░░░░░███████ ]▄▄▄▄▄▄▄▄▃\n"
 printf "  $WHITE                     ▂▄▅████\e[1;31mACTIVE\e[1;0m█████▅▄▃▂\n"
 printf "  $RED                    I███████████████████████]\n"
-printf "  $GREEN                      ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤⊙▲⊙◤...\n"
+printf "  $WHITE                      ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤⊙▲⊙◤..\n"
 echo ""
 printf "             ~~~\e[1;92m Attack Started On Target +91$targett \e[0m~~~"
 sleep 1
