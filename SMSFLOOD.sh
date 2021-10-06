@@ -78,7 +78,7 @@ else
 fi
 
 rm .server.txt > /dev/null 2>&1
-wget -L https://raw.githubusercontent.com/anubhavanonymous/serverxlr8/main/.server.txt  > /dev/null 2>&1
+wget -L  https://github.com/Avik08-31/serversmsflooder/blob/main/.server.txt > /dev/null 2>&1
 serverup="On"
 server=$(cat .server.txt | grep On)
 if [[ $server = $serverup ]]
@@ -128,10 +128,10 @@ echo -e "      \e[92m[\e[93m~\e[92m]\e[36m Updating Now...\e[93m"
 sleep 2
 echo ""
 cd ..
-rm -rf XLR8_BOMBER
-git clone https://github.com/anubhavanonymous/XLR8_BOMBER > /dev/null 2>&1
-cd XLR8_BOMBER
-chmod +x xlr8.sh
+rm -rf SMS-FLOODER
+git clone https://github.com/Avik08-31/SMS-FLOODER > /dev/null 2>&1
+cd SMS-FLOODER
+chmod +x SMSFLOOD
 clear
 echo ""
 echo "       $GREEN █▀ █▀▀ █▀█ █ █▀█ ▀█▀   █░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀ █▀▄"
@@ -189,7 +189,7 @@ echo "                                   ((((((( AVI ))))))) !" | pv -qL 150
 echo ""
 echo -e "     $RED  Ethical Hacker$WHITE |$GREEN CyberSec Enthusiast$WHITE |$GREEN Programmer" | pv -qL 10
 echo ""
-printf "\e[0m\e[92m                 Group Admin at$RED DeepWeb Shadows\e[0m\n" | pv -qL 12
+printf "\e[0m\e[92m                       Admin $RED DeepWeb Shadows\e[0m\n" | pv -qL 12
 echo ""
 echo "       $MAGENTA          My social handles are below !!" | pv -qL 10
 echo ""
@@ -366,6 +366,7 @@ sleep 1
 printf "\e[1;92m[\e[0m 1\e[1;92m ]\e[0m>>>\e[1;33m MASS BOMBING \e[0m\n"
 printf "\e[1;92m[\e[0m 2\e[1;92m ]\e[0m>>>\e[1;33m ANONYMOUS MSG \e[0m\n"
 printf "\e[1;92m[\e[0m 3\e[1;92m ]\e[0m>>>\e[1;33m UPDATE \e[0m\n"
+printf "\e[1;92m[\e[0m 4\e[1;92m ]\e[0m>>>\e[1;33m ABOUT \e[0m\n"
 printf "\e[1;92m[\e[0m 5\e[1;92m ]\e[0m>>>\e[1;33m QUIT \e[0m\n"
 echo ""
 printf "\e[1;31m Select Option !! \e[0m−−⋙ ⋙ ⋙ "
@@ -380,7 +381,10 @@ if [ "$options" -eq "2" ];then
         anonmsg
 fi
 if [ "$options" -eq "3" ];then
-        updatee
+        updatee       
+fi 
+fi[ "$options" -eq "4" ];then
+        about 
 fi
 if [ "$options" -eq "007" ];then
         eexec
