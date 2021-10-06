@@ -44,12 +44,12 @@ echo "                            $GREEN S-E-R-V-E-R"
 banner() {
 
 echo -e ""
-echo "          $GREEN╭━╮╭━┳╮╱╱╭━━━┳━━━╮ ╭━━╮╭━━━┳━╮╭━┳━━╮╭━━━┳━━━╮"
-echo "          $RED╰╮╰╯╭┫┃╱╱┃╭━╮┃╭━╮┃ ┃╭╮┃┃╭━╮┃┃╰╯┃┃╭╮┃┃╭━╮┃╭━╮┃"
-echo "          $GREEN╱╰╮╭╯┃┃╱╱┃╰━╯┃╰━╯┃ ┃╰╯╰┫┃╱┃┃╭╮╭╮┃╰╯╰╋╯╭╯┃╰━╯┃"
-echo "          $GREEN╱╭╯╰╮┃┃╱╭┫╭╮╭┫╭━╮┃ ┃╭━╮┃┃╱┃┃┃┃┃┃┃╭━╮┣╮╰╮┃╭╮╭╯"
-echo "          $RED╭╯╭╮╰ ┃╰━╯┃╰━╯┃┃┃┃┃┃╰━╯┃╰━╯┃┃┃╰╮!!!!!!!!!!!!!!!!"
-echo "          $GREEN╰━╯╰━┻━━━┻╯╰━┻━━━╯ ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
+echo "         #0000FF ╭━━╮╭━━━┳━╮╭━┳━━╮╭━━━┳━━━╮"
+echo "          $RED  @ ╭╮┃┃╭━╮┃┃╰╯┃┃╭╮┃┃╭━╮┃╭━╮┃"
+echo "          $GREEN┃╰╯╰┫┃╱┃┃╭╮╭╮┃╰╯╰╋╯╭╯┃╰━╯┃"
+echo "          $GREEN┃╭━╮┃┃╱┃┃┃┃┃┃┃╭━╮┣╮╰╮┃╭╮╭╯"
+echo "          $CYAN /╰━╯┃╰━╯┃┃┃╰╮!! !!! !! !! "
+echo "          $GREEN╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
 echo ""
 sleep 1
 echo "                                    $CYAN Author:$GREEN AVIK "
@@ -166,7 +166,7 @@ echo -e '''
          \e[1;91m      ╔═══════════╗
          \e[1;91m    ╔═╝\e[1;97m███████████\e[1;91m╚═╗
          \e[1;91m   ╔╝\e[1;97m███████████████\e[1;91m╚╗
-         \e[1;91m   ║\e[1;97m█████\e[1;92m4NU8H4V\e[1;97m█████\e[1;91m║
+         \e[1;91m   ║\e[1;97m█████\e[1;92mSRK\e[1;97m█████\e[1;91m║
          \e[1;91m   ║\e[1;97m█████████████████\e[1;91m║\e[1;91m
          \e[1;91m   ║\e[1;97m█████████████████\e[1;91m║\e[1;91m
          \e[1;91m   ║\e[1;97m█\e[1;91m╔\e[1;97m█████████████\e[1;91m╗\e[1;97m█\e[1;91m║\e[1;91m
@@ -187,7 +187,7 @@ sleep 1.2
 echo -e "                                  This is\e[1;0m  AVIK !  " | pv -qL 150
 echo "                                   ((((((( AVI ))))))) !" | pv -qL 150
 echo ""
-echo -e "     $RED  Ethical Hacker$WHITE |$GREEN CyberSec Enthusiast$WHITE |$GREEN Programmer" | pv -qL 10
+echo -e "    $GREEN  Ethical Hacker$WHITE |$RED CyberSec Enthusiast$WHITE |$GREEN Programmer" | pv -qL 10
 echo ""
 printf "\e[0m\e[92m                       Admin $RED DeepWeb Shadows\e[0m\n" | pv -qL 12
 echo ""
