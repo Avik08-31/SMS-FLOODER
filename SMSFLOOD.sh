@@ -28,10 +28,10 @@ just() {
 clear
 echo ""
 echo ""
-printf  "                      \e[1;33m|C|O|N|N|E|C|T|I|N|G|"
+printf  "                      \e[1;33m{ P L E S E  W A I T  C_O_N_N_E_C_T_I_N_G }"
 echo ""
-echo ""
-echo ""
+echo "                                           $BLUE C--H--E--C--K--I--N--G"
+echo "                                            $GREEN S---E---R---V---E---R"
 }
 
 
@@ -73,7 +73,7 @@ fi
 
 rm .server.txt > /dev/null 2>&1
 wget -L https://raw.githubusercontent.com/anubhavanonymous/serverxlr8/main/.server.txt  > /dev/null 2>&1
-serverup="Off"
+serverup="On"
 server=$(cat .server.txt | grep On)
 if [[ $server = $serverup ]]
 then
