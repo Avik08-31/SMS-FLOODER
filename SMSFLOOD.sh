@@ -183,7 +183,7 @@ echo -e '''
 ''' | pv -qL 300
 sleep 1.2
 echo -e "                                  This is\e[1;0m  AVIK !  " | pv -qL 150
-echo "                                   ((((((( AVI ))))))) !" | pv -qL 150
+echo "                                   ((((((( Avik08-31 ))))))) !" | pv -qL 150
 echo ""
 echo -e "    $GREEN  Ethical Hacker$WHITE |$RED CyberSec Enthusiast$WHITE |$GREEN Programmer" | pv -qL 10
 echo ""
