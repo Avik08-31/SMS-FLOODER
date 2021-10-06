@@ -32,13 +32,12 @@ printf  "             \e[1;33m{ $GREEN P L E S E  W A I T  C_O_N_N_E_C_T_I_N_G }
 echo""
 echo""
 echo ""
-print   "                     \e[1;33m    $BLUE C--H--E--C--K--I--N--G"
+echo "                       $BLUE C--H--E--C--K--I--N--G"
 echo""
-echo"  \e[1;33m                          /////////////////////////////"
-echo"  \e[1;33m                          /////////////////////////////"
-echo"  \e[1;33m                          /////////////////////////////"
 echo""
-echo "                         \e[1;33m    $GREEN S---E---R---V---E---R"
+echo""
+echo""
+echo "                            $GREEN S-E-R-V-E-R"
 }
 
 
@@ -49,7 +48,7 @@ echo "          $GREEN╭━╮╭━┳╮╱╱╭━━━┳━━━╮ ╭
 echo "          $RED╰╮╰╯╭┫┃╱╱┃╭━╮┃╭━╮┃ ┃╭╮┃┃╭━╮┃┃╰╯┃┃╭╮┃┃╭━╮┃╭━╮┃"
 echo "          $GREEN╱╰╮╭╯┃┃╱╱┃╰━╯┃╰━╯┃ ┃╰╯╰┫┃╱┃┃╭╮╭╮┃╰╯╰╋╯╭╯┃╰━╯┃"
 echo "          $GREEN╱╭╯╰╮┃┃╱╭┫╭╮╭┫╭━╮┃ ┃╭━╮┃┃╱┃┃┃┃┃┃┃╭━╮┣╮╰╮┃╭╮╭╯"
-echo "          $RED╭╯╭╮╰ ┃╰━╯┃╰━╯┃┃┃┃┃┃╰━╯┃╰━╯┃┃┃╰╮"
+echo "          $RED╭╯╭╮╰ ┃╰━╯┃╰━╯┃┃┃┃┃┃╰━╯┃╰━╯┃┃┃╰╮!!!!!!!!!!!!!!!!"
 echo "          $GREEN╰━╯╰━┻━━━┻╯╰━┻━━━╯ ╰━━━┻━━━┻╯╰╯╰┻━━━┻━━━┻╯╰━╯"
 echo ""
 sleep 1
@@ -59,7 +58,7 @@ echo ""
 }
 
 #    Check Internet
-wget -q --spider https://github.com/anubhavanonymous
+wget -q --spider https://github.com/Avik08-31
 
 if [ $? -eq 0 ]; then
     just
